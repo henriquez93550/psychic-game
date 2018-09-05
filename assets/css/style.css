@@ -1,0 +1,54 @@
+ body {
+      font-family: 'Cormorant Unicase', serif;
+      align-content: center;      
+      color: lightskyblue;      
+      font-size: 1.5em;
+      font-weight: bold;
+      text-align:center;
+      vertical-align:center;
+      line-height: 36px; 
+     
+ }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      background-color: black;   
+  }
+
+    .center {      
+      width: 1024px;
+      height: 768px;
+      padding-top: 200px;  
+      background-image: url("../images/psychic_image.jpg");
+           
+     
+    }
+
+    .wrapper {
+      padding-left: 130px;
+    }
+
+    #won {
+      color: lightgray;
+      font-size: 1.5em;
+    }
+
+    #lost {
+      color: coral;
+      font-size: 1.5em;
+    }
+
+    #attempts {
+      color: green;
+      font-size: 1.2em;
+    }
+
+    #playerGuess {
+      color: royalblue;
+      font-size: 1.5em;
+    }
+
+    h1 {
+      font-size: 1.6em;
+    }
