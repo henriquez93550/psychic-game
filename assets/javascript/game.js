@@ -12,7 +12,7 @@ ranLetter = letters[Math.floor(Math.random() * letters.length)];
 console.log(ranLetter);
 
 //Uses random whole number generated above to select a random letter from the array [letters] and assigns it to the var ranLetter
-function jsGuess() {
+function jsPsychic() {
       ranLetter = letters[Math.floor(Math.random() * letters.length)];
       console.log(ranLetter);
 
@@ -34,7 +34,7 @@ document.onkeyup = function (event) {
 
       //WHAT HAPPENS WHEN PLAYER GUESSES INCORRECTLY
       //function used to execute if player guessed incorrectly
-      jsGuess();
+      jsPsychic();
       if (playerGuess !== ranLetter) {
             attempts--;
 
